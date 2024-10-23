@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_button_start"
+        android:padding="10dp"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/iv_notes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_notes" />
+
+        <ImageView
+            android:id="@+id/iv_pomodoro"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_pomodoro" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/iv_explore"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@mipmap/ic_explore"-->
+<!--            android:visibility="gone"-->
+<!--            tools:visibility="gone" />-->
+
+        <ImageView
+            android:id="@+id/iv_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_setting" />
+
+        <ImageView
+            android:id="@+id/iv_room"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_room" />
+
+    </TableRow>
+</LinearLayout>
